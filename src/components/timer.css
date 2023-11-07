@@ -1,0 +1,56 @@
+.timer{
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.timer_container{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding:25px 100px;
+    border-radius: 16px;
+    box-shadow: 0 16px 16px -11.2px black;
+}
+
+.stop .restart{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: skyblue;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.stop{
+    margin-left: 15px;
+}
+button{
+    min-height: 65px;
+    width: 130px;
+    border-radius: 15px;
+    background-color: skyblue;
+    color: aliceblue;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgb(0,0,0,0.3);
+}
+
+button:hover{
+    background-color: wheat;
+    color: black;
+    border: 10px;
+}
